@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.note {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.note h2 {
+  margin-top: 0;
+}
+
+.note p {
+  margin-bottom: 0;
+}
+
+.note button {
+  background-color: #f44336;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  /* Adjust container width for smaller screens */
+  .container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  /* Increase font size for title, content, and button on smaller screens */
+  h1,
+  label,
+  input[type="text"],
+  textarea,
+  button[type="submit"] {
+    font-size: 20px;
+  }
+}
+
+/* Additional media queries for larger screens if needed */
+@media screen and (min-width: 1200px) {
+  /* Example: Adjust styles for screens larger than 1200px */
+  .container {
+    padding: 40px;
+  }
+}
+
+/* Additional media queries for other screen sizes if needed */
+/* Add your own media queries here based on your design requirements */
